@@ -1,168 +1,464 @@
-<!DOCTYPE HTML>
-<html>
-  <head>
-    <title>Andreas Östlin Personal page</title>
+<!DOCTYPE html>
 
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RVPFXLJKXJ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-RVPFXLJKXJ');
-</script>
-
-    <link rel="stylesheet" href="./MainCss.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">    <!-- Latest compiled JavaScript -->
-  </head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <body>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta content="IE=edge" http-equiv="X-UA-Compatible">
+        <meta content="width=device-width, initial-scale=1" name="viewport">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <meta content="" name="description">
+        <meta content="" name="author">
+        <link href="../../favicon.ico" rel="icon">
     
-    <script src="./MyScripts.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <title>Andreas Östlin Personal page</title>
+        <!-- Bootstrap core CSS -->
+        <link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" rel="stylesheet">
+        <!-- FontAwesome Icon Font -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+        <!-- LinearIcons Icon Font -->
+        <link href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css" rel="stylesheet">
+        <!-- Main Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+        <!-- Timeline CSS -->
+        <link href="css/timeline.css" rel="stylesheet">
+    </head>
+    
 
-    <section class="gradient-custom-2">     
-       <div class="container py-5 h-100">
-        <div class="row d-flex justify-content-center align-items-center h-100">
-    <div class="col col-lg-9 col-xl-7">
-      <div class="card">
+<body>
+    <!-- INTRO SECTION -->
 
-        <div class="rounded-top text-white d-flex flex-row" style=" height:200px; background-image:url(https://images.pexels.com/photos/1629236/pexels-photo-1629236.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); ">
-          <div class="ms-4 mt-5 d-flex flex-column" style="width: 150px;">
-            <img class="ml-4" src="profilePicture.jpg" alt="Andreas profile picture" class="img-fluid img-thumbnail mt-4 mb-2" style="width: 150px; z-index: 1">
-
-          </div>
-          <div class=" " style="margin-top: 130px; margin-left: 30px;">
-            <h5 class="font-weight-bold">Andreas Östlin</h5>
-            <p class="font-weight-bold">Halmstad</p>
-          </div>
-        </div>
-        <div class="p-4 text-black" style="background-color: #f8f9fa;">
-          <div class="flex-column">
-          <span class="font-weight-bold mr-1 row">Social media:</span>
-          <div class="row">
-          <a href="https://github.com/hyphenate93" title="Github"><i class="fab fa-github fa-lg mr-1" style="color: #333333;"></i>
-          </a>
-          <a href="https://twitter.com/Hyphenate_" title="Twitter"><i class="fab fa-twitter fa-lg mr-1"  style="color: #55acee;"></i>
-          </a>
-          <a href="https://www.instagram.com/andreas_ostlin/" title="Instagram">  <i class="fab fa-instagram fa-lg mr-1" style="color: #ac2bac;"></i>
-          </a>
-          <a href="https://www.facebook.com/andreas.ostlin.9/" title="Facebook"><i class="fab fa-facebook-f fa-lg mr-1" style="color: #3b5998;"></i>
-          </a>
-          <a href="https://www.linkedin.com/in/andreas-%C3%B6stlin-08a363158" title="LinkedIn"><i class="fab fa-linkedin fa-lg mr-1" style="color: #3b5998;"></i>
-          </a>
-        </div>
-        </div>
-          <button class="btn btn-primary myButtons float-right" id="download-button"><i class="fa fa-download"></i> Resume</button>
-          <button class="btn btn-primary float-right mr-1" id="portfolio-button" data-toggle="modal" data-target="#portfolioModal"><i class="fa fa-book"></i> Portfolio</button>
-        </div>
-        
-        <div class="modal fade" id="portfolioModal" tabindex="-1" role="dialog" aria-labelledby="portfolioModalLabel" aria-hidden="true">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="portfolioModalLabel">Portfolio</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
                 </button>
-              </div>
-              <div class="modal-body">
+            </div>
+            
+            <!-- Navbar Contents -->
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a style="color: white;" href="#intro">Home</a></li>
+                    <li><a style="color: white;" href="#about">About</a></li>
+                    <li><a style="color: white;" href="#portfolio">Portfolio</a></li>
+                    <li><a style="color: white;" href="#books">Writing</a></li>
+                    <li><a style="color: white;" href="#skills">Experiences</a></li>
+                    <li><a style="color: white;" href="#contact">Contact</a></li>
+                </ul>
+            </div><!--/.nav-collapse -->
+        </div>
+    </nav>
+      
+    <section class="section-image" id="intro">
+        <div class="img-overlay"></div>
+            <div class="intro">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h5>Hi there</h5>
+
+
+                        <h1>I'm Andreas Östlin</h1>
+
+
+                        <p class="intro-desc">
+                            <span class="colour-splash">•</span>
+                        <span>Developer</span>
+                        <span class="colour-splash">•</span> <span>Chef</span>
+                        <span class="colour-splash">•</span>
+                        <span>Author</span> 
+                    </p>
+                    </div>
+                    <!-- /col-md-12 -->
+                </div>
+
+
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="social">
+                            <a href="https://twitter.com/Hyphenate_"
+                            target="_blank"><i class=
+                            "fa-brands fa-twitter fa-3x"></i></a> <a href=
+                            "https://www.instagram.com/andreas_ostlin/" target=
+                            "_blank"><i class="fa-brands fa-instagram fa-3x"></i></a> 
+                             <a href="https://www.linkedin.com/in/andreas-%C3%B6stlin-08a363158"
+                            target="_blank"><i class=
+                            "fa-brands fa-linkedin fa-3x"></i></a> 
+                            <a href="https://www.facebook.com/andreas.ostlin.9/"
+                            target="_blank"><i class=
+                            "fa-brands fa-facebook fa-3x"></i></a> <a href=
+                            "https://github.com/hyphenate93" target=
+                            "_blank"><i class="fa-brands fa-github fa-3x"></i></a>
+                            <a href=
+                            "https://www.goodreads.com/user/show/174409133-andreas-stlin" target=
+                            "_blank"><i class="fa-brands fa-goodreads fa-3x"></i></a>
+                        </div><!-- /social -->
+                    </div><!-- /col-md-8 -->
+                </div><!-- /row -->
+                
+
+
+                <div class="bottom">
+                    <a href="#about">
+                    <div class="mouse-icon">
+                        <div class="scroll">
+                        </div>
+                    </div></a>
+                </div>
+            </div><!-- /intro -->
+    </section>
+    
+    
+    <!-- ABOUT SECTION -->
+    <section class="section-primary" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center">
+                    <img class="profilepic" src=
+                    "images/profilePicture.jpg">
+
+                    <h2>About Me</h2>
+
+                    <hr>
+
+
+                    <p class="lead">A full-stack developer at Quicksearch-Feedback Solutions in Halmstad, Sweden, I hold a Bachelor's degree in Computer Science and Engineering from the University of Halmstad.
+                    <br>
+                    <br>
+
+                   <span>Previously</span> educated and worked as a chef
+                   <br>
+                   <br>
+                   <span>Passionate</span> about writing, competitive computer gaming and long distance running
+                   <br>
+                   <br>
+                   <span>Proficient</span> programmer, enthusiastic gamer, and trained chef
+                    </p>
+                  
+                </div><!-- /col-md-6 -->
+            </div><!-- / row -->
+        </div><!-- /container -->
+    </section>
+    <!-- SKILLS SECTION -->
+
+
+    <section class="section-image" id="skills">
+        <div class="img-overlay"></div>
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 section-heading">
+                    <h2>Experience</h2>
+
+
+                    <p class="lead">Here are a few things about me</p>
+
+                    <hr>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <span class="lnr lnr-dinner"></span>
+                    <h2>Cooking</h2>
+                    <p>I worked as a sous chef at a four star hotel in Tällberg, where I got the oppurtunity to cook for the king of Sweden more than once.</p>
+                </div>
+
+
+                <div class="col-md-4 text-center">
+                    <span class="lnr lnr-checkmark-circle"></span>
+                    <h2>Certified from LinkedIn</h2>
+
+
+                    <ul class="list-group">
+                        <li>REST API </li>
+                        <li>Frontend Development </li>
+                        <li>Javascript </li>
+                        <li>C# </li>
+                        <li>Java </li>
+                      </ul>
+                </div>
+
+
+                <div class="col-md-4 text-center">
+                    <span class="lnr lnr-bubble"></span>
+
+                    <h2>University lecturer</h2>
+
+
+                    <p>I guest lecture the class for third year engineering students at the University of Halmstad in their course for Rest-APIs.</p>
+                </div>
+            </div> <!-- / row -->
+        </div><!-- /container -->
+    </section>
+    <!-- BOOKS SECTION -->
+<section class="section-primary" id="books">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 section-heading">
+                <h2>My Books</h2>
+                <p class="lead">Explore my works</p>
+                <hr class="white">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Dying roses</h5>
+                        <p class="card-text">High fantasy debut novel.</p>
+                        <a href="book1_first_chapter.html" class="btn btn-primary">Read First Chapter</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more cards for additional books -->
+
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Project Arbiter</h5>
+                        <p class="card-text">Excerpt from my sci-fi project.</p>
+                        <a href="Excerpt.html" class="btn btn-primary">Read the excerpt</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more cards for additional books -->
+
+        </div> <!-- /row -->
+    </div><!-- /container -->
+</section>
+<section class="section-primary" id="portfolio">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 section-heading">
+                <h2>Portfolio</h2>
+                <p class="lead">Explore my portfolio</p>
+                <hr class="white">
+            </div>
+        </div>
+
+        <div class="row equal-height">
+            <div class="col-md-6 " style="border: 1px solid rgb(114, 114, 114); ">
                 <p>This Webpage is created, owned and hosted by me.</p>
                 <p>Guest lecturer on the subject of Rest APIs for engineering students at the University of Halmstad.</p>
-                <p class=""><a href="https://www.diva-portal.org/smash/record.jsf?dswid=-9652&pid=diva2%3A1568682&c=1&searchType=SIMPLE&language=sv&query=andreas+%C3%B6stlin+application&af=%5B%5D&aq=%5B%5B%5D%5D&aq2=%5B%5B%5D%5D&aqe=%5B%5D&noOfRows=50&sortOrder=author_sort_asc&sortOrder2=title_sort_asc&onlyFullText=false&sf=all">My bachelor's thesis on creating an Application for automated pressure measurement</a></p>
-                <p class=""><a href="https://github.com/hyphenate93/PCB-project">A PCB simulator written in Java to simulate connections on a breadboard </a></p>
-
-                <div>
-                  <h5>Certified from LinkedIn</h5>
-                  <ul>
+                <p><a href="https://www.diva-portal.org/smash/record.jsf?dswid=-9652&pid=diva2%3A1568682&c=1&searchType=SIMPLE&language=sv&query=andreas+%C3%B6stlin+application&af=%5B%5D&aq=%5B%5B%5D%5D&aq2=%5B%5B%5D%5D&aqe=%5B%5D&noOfRows=50&sortOrder=author_sort_asc&sortOrder2=title_sort_asc&onlyFullText=false&sf=all">My bachelor's thesis on creating an Application for automated pressure measurement [Link]</a></p>
+                <p><a href="https://github.com/hyphenate93/PCB-project">A PCB simulator written in Java to simulate connections on a breadboard [Link]</a></p>
+            </div>
+            <div class="col-md-6 " style="border: 1px solid rgb(114, 114, 114); ">
+                <h5>Certified from LinkedIn</h5>
+                <ul>
                     <li>REST API <i class="fas fa-check"></i></li>
                     <li>Frontend Development <i class="fas fa-check"></i></li>
                     <li>Javascript <i class="fas fa-check"></i></li>
                     <li>C# <i class="fas fa-check"></i></li>
                     <li>Java <i class="fas fa-check"></i></li>
-                  </ul>
-                </div>
-
-              </div>
+                </ul>
             </div>
-          </div>
+            <div class="row">
+          
+           
+            <div class="social-footer">
+                <div class="col-md-4 text-center">
+                    <button class="btn btn-primary myButtons " id="download-button"><i class="fa fa-download"></i> Resume</button>
+            </div>
+            </div>
         </div>
 
 
-        <div class="card-body p-4 text-black">
-          <div class="font-italic mb-1">
-            <p>Currently working as a full-stack developer at Quicksearch - Feedback Solutions in Halmstad, Sweden. Hold a Bachelor's degree in Computer Science and Engineering from the University of Halmstad</p>
-            <p></p>
-            <p>Previously educated and worked as a chef</p>
-            <p>Passionate about competitive computer gaming and long distance running</p>
-            <p>Proficient programmer, enthusiastic gamer, and trained chef</p>
-          </div>
-      
-          
-          <div class="d-flex justify-content-between align-items-center mb-4">
-            <p class="lead fw-normal mb-0">Contact Info</p>
-          </div>
-          
-          <div class="card mb-4">
-            <div class="card-body">
-              <div class="row">
-                <div class="col-sm-3">
-                  <p class="mb-0">Full Name</p>
-                </div>
-                <div class="col-sm-9">
-                  <p class="text-muted mb-0">Andreas Östlin</p>
-                </div>
-              </div>
-          
-              <hr>
-          
-              <div class="row">
-                <div class="col-sm-3">
-                  <p class="mb-0">Email</p>
-                </div>
-                <div class="col-sm-9">
-                  <a class="text-muted mb-0" href="mailto:andreas_ostlin@hotmail.com">andreas_ostlin@hotmail.com</a>
-                </div>
-              </div>
-          
-              <hr>
-          
-              <div class="row">
-                <div class="col-sm-3">
-                  <p class="mb-0">Phone</p>
-                </div>
-                <div class="col-sm-9">
-                  <p class="text-muted mb-0">+46 722170134</p>
-                </div>
-              </div>
-          
-              <hr>
-          
-              <div class="row">
-                <div class="col-sm-3">
-                  <p class="mb-0">Address</p>
-                </div>
-                <div class="col-sm-9">
-                  <p class="text-muted mb-0">Halmstad, Sweden</p>
-                </div>
-              </div>
-          
-              <hr>
-          
-              <a class="btn btn-primary" href="data:text/vcard;charset=utf-8,%EF%BB%BFBEGIN%3AVCARD%0D%0AVERSION%3A4.0%0D%0AN%3A%20%3BAndreas%20%C3%96stlin%0D%0AEMAIL%3Aandreas_ostlin%40hotmail.com%0D%0ATEL%3A%2B46722170134%0D%0AADR%3A%3B%3B%3BHalmstad%3B%3B%3B%3BSweden%0D%0AEND%3AVCARD%0D%0A" download="Andreas_Ostlin.vcf">Download vCard</a>
-          
-            </div>
-          </div>
-          
         </div>
-      </div>
     </div>
-  </div>
-</div>
+    </div><!-- /container -->
 </section>
+<div>
 
+
+    <!-- TIMELINE SECTION -->
+
+<section class="section-primary" >
+
+    
+</section>
+    <section class="section-primary" id="timelinesection">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 section-heading">
+                    <h2>Things I've done</h2>
+
+
+                    <p class="lead">Here are a few things about me</p>
+
+                    <hr class="white">
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-12">
+                    <!-- Timeline -->
+
+
+                    <div id="timeline">
+                        <!-- Timeline Item, copy from here to create various boxes -->
+
+
+                        <div class="timeline-item">
+                            <!--Icon inside the circle-->
+
+
+                            <div class="timeline-icon">
+                                <i class="fa fa-plane" ></i>
+                            </div>
+                            <!-- Content from timeline box and position (right or left)-->
+
+
+                            <div class="timeline-content right">
+                                <h2>2011 - 2018</h2>
+                                <p>Left my hometown and worked as a chef, sous chef, and eventually head chef at various restaurants.</p>
+                            </div>
+                        </div>
+                        <!-- /Timeline Item-->
+                        <!-- Timeline Item, copy from here to create various boxes -->
+
+
+                        <div class="timeline-item">
+                            <!--Icon inside the circle-->
+
+
+                            <div class="timeline-icon">
+                                <i class="fa fa-graduation-cap" style="margin: 12px;"></i>
+                            </div>
+                            <!-- Content from timeline box and position (right or left)-->
+
+
+                            <div class="timeline-content left">
+                                <h2>2018 - 2021</h2>
+
+                                <p>Studied computer science and engineering at the University of Halmstad, graduating with a bachelor's degree.</p>
+                            </div>
+                        </div>
+                        <!-- /Timeline Item-->
+                        <!-- Timeline Item, copy from here to create various boxes -->
+
+
+                        <div class="timeline-item">
+                            <!--Icon inside the circle-->
+
+
+                            <div class="timeline-icon">
+                                <i class="fa fa-suitcase"></i>
+                            </div>
+                            <!-- Content from timeline box and position (right or left)-->
+
+
+                            <div class="timeline-content right">
+                                <h2>2021 - Current</h2>
+
+
+                                <p>Landed a job as a full-stack developer at Quicksearch-Feedback Solutions after completing my master's thesis.</p>
+                            </div>
+                        </div>
+                        <!-- /Timeline Item-->
+                        <!-- Timeline Item, copy from here to create various boxes -->
+
+                        <div class="timeline-item">
+                            <!--Icon inside the circle-->
+
+
+                            <div class="timeline-icon">
+                                <i class="fa fa-house" style="margin: 12px;"></i>
+                            </div>
+                            <!-- Content from timeline box and position (right or left)-->
+
+
+                            <div class="timeline-content left">
+                                <h2>2021</h2>
+                                <p>My fianceé and I bought our first house and our beloved dog.                                </p>
+                                <img class="profilepic" src=
+                                "images/dog.jpg">
+                            </div>
+                        </div>
+                        <!-- /Timeline Item-->
+                        <div class="timeline-item">
+                            <!--Icon inside the circle-->
+
+
+                            <div class="timeline-icon">
+                                <i class="fa fa-group"></i>
+                            </div>
+                            <!-- Content from timeline box and position (right or left)-->
+
+                            <div class="timeline-icon">
+                                <i class="fa fa-book" ></i>
+                            </div>
+                            <div class="timeline-content right">
+                                <h2>2023 - Current</h2>
+
+
+                                <p>Found my passion for writing and began writing my first novel, 'Dying Roses.'</p>
+                            </div>
+                        </div>
+                        <!-- /Timeline Item-->
+                        <!-- Timeline Item, copy from here to create various boxes -->
+
+
+ 
+                    </div>
+                    <!-- /col-md-12 -->
+                </div>
+                <!-- /row -->
+            </div>
+        </div> <!-- / container -->
+    </section>
+    <!-- FOOTER SECTION -->
+<!-- CONTACT SECTION -->
+<section class="section-image" id="contact">
+    <div class="img-overlay w-50"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 section-heading">
+                <h2>Contact Me</h2>
+                <p class="lead">Get in touch with me</p>
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <ul class="list-unstyled contact-info">
+                    <li style="margin-bottom: 5px;"><i class="fa fa-user"></i> Full Name: Andreas Östlin</li>
+                    <li style="margin-bottom: 5px;"><i class="fa fa-envelope"></i> Email: <a class="text-muted mb-0" href="mailto:andreas_ostlin@hotmail.com">andreas_ostlin@hotmail.com</a>                    </li>
+                    <li style="margin-bottom: 5px;"><i class="fa fa-phone"></i> Phone: +46 722170134</li>
+                    <li><i class="fa fa-map-marker"></i> Address: Halmstad, Sweden</li>
+                </ul>
+            </div>
+            <div class="col-md-6 text-center">
+                <a class="btn btn-primary" href="data:text/vcard;charset=utf-8,%EF%BB%BFBEGIN%3AVCARD%0D%0AVERSION%3A4.0%0D%0AN%3A%20%3BAndreas%20%C3%96stlin%0D%0AEMAIL%3Aandreas_ostlin%40hotmail.com%0D%0ATEL%3A%2B46722170134%0D%0AADR%3A%3B%3B%3BHalmstad%3B%3B%3B%3BSweden%0D%0AEND%3AVCARD%0D%0A" download="Andreas_Ostlin.vcf">Download vCard</a>
+            </div>
+        </div>
+    </div>
+</section>
+    <footer class="footer">
+        <div class="container">
+ 
+        </div><!-- /container -->
+    </footer>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src=
+    "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+    </script> 
+    <script>
+    window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')
+    </script> 
+    <script src="js/bootstrap.min.js">
+    </script> 
+    <script src="js/scripts.js">
+    </script>
 </body>
-
 </html>
