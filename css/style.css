@@ -404,3 +404,22 @@ ul {
     background-color: #a51141; /* Darker shade for hover */
 
   }
+  .book-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers items on the cross-axis (horizontal by default) */
+    justify-content: center; /* Adjust as needed to center on the main-axis (vertical by default) */
+    text-align: center; /* Centers the text inside the flex container */
+}
+
+.book-card a {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Ensures the icon and text within the link are centered */
+}
+@media (min-width: 992px) { /* Adjusting for Bootstrap's MD breakpoint */
+    .book-card {
+        justify-content: flex-start; /* Aligns content to the start of the container */
+        padding: 0 20px; /* Adds some padding */
+    }
+}
