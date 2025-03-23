@@ -1,0 +1,44 @@
+---
+layout: archive
+title: "Books"
+permalink: /books/
+author_profile: true
+---
+
+{% include base_path %}
+
+<div class="book-gallery">
+  {% for book in site.books %}
+    <div class="book-card">
+      <a href="{{ book.url | relative_url }}">
+        <img src="{{ book.cover | relative_url }}" alt="Cover of {{ book.title }}" class="book-cover" />
+        <h3>{{ book.title }}</h3>
+      </a>
+    </div>
+  {% endfor %}
+</div>
+<style>
+  .book-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: flex-start;
+}
+
+.book-card {
+  width: 180px;
+  text-align: center;
+}
+
+.book-card img.book-cover {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.book-card img.book-cover:hover {
+  transform: scale(1.03);
+}
+
+</style>
