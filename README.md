@@ -66,10 +66,11 @@ Start the server by executing:
 ```bash
 bundle exec jekyll serve -l -H localhost
 ```
-**Forked from Academic Pages on GitHub Pages.**
 
 ```
 
 Your site will now be accessible at [http://localhost:4000](http://localhost:4000). Jekyll will automatically rebuild and refresh the page whenever you make changes.
 
 You should now be able to view and edit the project locally with Visual Studio Code.
+```
+**Forked from Academic Pages on GitHub Pages.**
