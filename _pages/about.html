@@ -12,3 +12,119 @@ redirect_from:
     <p>Before tech, I trained and worked as a professional chef, and that same blend of creativity and discipline now fuels everything I build. When I’m not coding, you’ll find me writing fantasy fiction, running long distances to clear my head, or out in nature with my wife, our daughter, and our dog.</p>
 
     <p>This site is part portfolio, part creative outlet. Here you’ll find my living CV, personal blog posts, and updates on my writing projects, including previews and progress toward future book releases.</p>
+
+<div class="book-card-section">
+    <h3>My Latest Book</h3>
+    <div class="book-card">
+        <img src="/images/dying-roses.png" alt="Dying Roses book cover" class="book-cover">
+        <div class="book-content">
+            <h4>Dying Roses</h4>
+            <div class="blurb-text">
+                <p><strong>BETRAYAL. WAR. MAGIC...</strong></p>
+                <p>Young King Ghalen has fought a losing war for years, his kingdom of Erahnia crumbling under a new enemy that commands death magic.</p>
+                <p>Everything changes when one of their puppets is captured. She has no memories, but she has a face he’s never seen, unmatched magic, and still lives. Is she a weapon sent by the enemy, a figure from prophecy, or a chance to turn the tide?</p>
+                <p>Ghalen sees an opportunity. But unraveling her past could awaken something far worse.</p>
+            </div>
+            <a href="https://www.amazon.com/Dying-Roses-Andreas-%C3%96stlin-ebook/dp/B0FCBJXQ5Z/" target="_blank" class="amazon-link">
+            <i class="fa fa-amazon" aria-hidden="true"></i>
+                <i class="fa-brands fa-amazon"></i>
+                Buy on Amazon
+            </a>
+        </div>
+    </div>
+</div>
+
+  <styly>
+/* Book Card Section Styling */
+.book-card-section {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.book-card-section h3 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Main Card Container */
+.book-card {
+    display: flex;
+    flex-direction: column; /* Stacks items vertically on smaller screens */
+    align-items: center;
+    padding: 2rem;
+    background-color: #f9f9f9; /* Light grey background */
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.book-cover {
+    width: 200px; /* Adjust size as needed */
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 1.5rem; /* Spacing for mobile */
+}
+
+.book-content {
+    text-align: center;
+}
+
+.book-content h4 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.book-content p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.amazon-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-decoration: none;
+    background-color: #ff9900; /* Amazon's brand color */
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.amazon-link:hover {
+    background-color: #e68a00;
+}
+
+.amazon-link .fa-amazon {
+    font-size: 1.2rem;
+}
+
+/* Media query for larger screens */
+@media (min-width: 768px) {
+    .book-card {
+        flex-direction: row; /* Aligns items horizontally */
+        text-align: left;
+        gap: 2rem;
+    }
+
+    .book-cover {
+        margin-bottom: 0;
+    }
+    
+    .book-content {
+        text-align: left;
+    }
+}
+    .blurb-text p {
+  margin-bottom: 1em; /* Adds space between paragraphs for readability */
+}
+
+.blurb-text p:last-child {
+  margin-bottom: 0;
+}
+  </styly>
