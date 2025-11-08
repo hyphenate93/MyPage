@@ -25,9 +25,9 @@ author:
   avatar           : "profile.png"
   name             : "About me"
   pronouns         : # example: "she/her"  
-  bio              : "A full-stack developer at GreaterRetention in Halmstad, Sweden, I hold a Bachelor's degree in Computer Science and Engineering from the University of Halmstad."
+  bio              : "A full-stack developer at Quicksearch in Halmstad, Sweden, I hold a Bachelor's degree in Computer Science and Engineering from the University of Halmstad."
   location         : "Halmstad"
-  employer         : "GreaterRetention"
+  employer         : "Quicksearch"
   uri              : # URL
   email            : "andreas_ostlin@hotmail.com" 
 
